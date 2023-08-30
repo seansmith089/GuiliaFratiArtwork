@@ -1,0 +1,53 @@
+.backdrop{
+    width:100vw;
+    height: 100vh;
+    z-index: 5;
+    background-color: rgba(27, 27, 27, 0.87);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image-container{
+    max-width: 35%;
+    max-height: 97%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-image{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.modal-close{
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    overflow: visible;
+    position: absolute;
+    left: 100%;
+}
+
+.modal-close:hover{
+    cursor: pointer;
+}
+
+@media (max-width:990px){
+    .modal-image-container{
+        max-width: 95%;
+    }
+    .modal-close{
+        left:85%;
+        top:4%
+    }
+
+}

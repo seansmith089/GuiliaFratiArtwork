@@ -1,0 +1,173 @@
+.root-layout{
+    position: relative;
+    min-height: 100vh
+}
+
+.navbar{
+    display:flex;
+    width:100%;
+    height:4rem;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+
+/* WEB NAV-BAR */
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+    
+}
+
+.navbar nav ul {
+    display: inline;
+    
+}
+
+.navbar nav ul li{
+    display: inline-block;
+}
+
+.nav-option{
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    padding: 0 1rem;
+    position: relative;
+    
+}
+
+.nav-option:last-child{
+    margin-right: 3rem;
+}
+
+.nav-option:hover{
+    color: rgb(240, 69, 69);
+}
+
+/* MOBILE NAV-BAR */
+.navbar .mobile-navigation{
+    display: none;
+}
+
+.navbar .navigation .name-nav{
+    font-size: 1.8rem;
+    margin-left: 5rem;
+}
+
+.dots-home, .dots-projects, .dots-about, .dots-contact{
+    visibility: hidden;
+}
+
+a.active{
+    color: rgb(240, 69, 69);
+} a.active > .dots{
+    visibility: visible;
+}
+
+a h1{
+    text-decoration: none;
+}
+
+.dots-home, .dots-projects, .dots-about, .dots-contact{
+    position: absolute;
+    top: 8px;
+    letter-spacing: 2px;
+    right: 16px;
+}
+
+.dots-projects{
+    right: 20px;
+}
+
+.dots-about{
+    right: 18px;
+}
+
+.dots-contact{
+    right: 19px;
+}
+
+
+/* MOBILE DEVICES */
+@media (min-width:990px) and (max-width:1200px){
+    .nav-option{
+        padding: 0;
+        z-index: 4;
+    }
+
+    .dots-home{
+        right: 0px
+    }
+    .dots-projects{
+        right:4px;
+    }
+    .dots-about{
+        right: 3px;
+    }
+    .dots-contact{
+        right: 3px;
+    }
+}
+
+
+
+@media (max-width:990px){
+    .navbar{
+        background-color: rgb(27, 27, 27);
+        position: sticky;
+        top: 0;
+    }
+    
+    .navbar .navigation{
+        display: none;
+    }
+
+    .navbar .mobile-navigation{
+        display: flex;
+        align-items: center;
+    }
+
+     .navbar .mobile-navigation .hamburger{
+        position: absolute;
+        right:5%;
+    }
+
+     .navbar .mobile-navigation .close{
+        position: absolute;
+        right:5%;
+    }
+
+    .navbar .mobile-navigation .name-mobile{
+        color: rgb(219, 219, 219);
+        font-size: 3rem;
+    }
+
+    .navbar nav ul{
+        background-color: rgb(20, 20, 20);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4rem;
+        right:0;
+        width:100%;
+    }
+
+    .navbar nav ul li{
+        line-height: 350%;
+        margin-left: 7%;
+        
+    }
+
+    .navbar nav ul li a{
+        color: rgb(230, 230, 230);
+    }
+
+
+}
+
+

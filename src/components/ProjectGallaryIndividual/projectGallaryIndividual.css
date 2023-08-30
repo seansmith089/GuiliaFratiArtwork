@@ -1,0 +1,32 @@
+.gal-img-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+    gap: .9rem;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+}
+
+.gal-img{
+    min-width: 40%;
+    max-width:  48%;
+    object-fit: contain;
+    
+}
+
+
+@media (max-width:990px){
+    .gal-img-container .gal-img{
+        min-width: 100%;
+        border-bottom: 2px solid rgb(15, 15, 15);
+    }
+    .gal-img-container{
+        margin-top: 0rem;
+        gap:0;
+        padding-bottom: 0;
+        
+    }
+}

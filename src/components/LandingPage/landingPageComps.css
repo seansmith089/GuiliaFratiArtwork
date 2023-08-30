@@ -1,0 +1,59 @@
+/* TITLE BAR */
+
+.title-bar-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.main-title{
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    color: rgb(12, 12, 12);
+}
+
+
+/* MOUTH IMAGE*/
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 50%;
+    margin-top: 1rem;
+}
+
+.mouth-image{
+    max-height:100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* ENTER BUTTON */
+
+.enter-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0;
+}
+
+.enter-txt{
+    font-size: 6rem;
+    color: rgb(27, 27, 27);
+    transition-duration: .2s;
+}
+
+.enter-txt:hover{
+  cursor: pointer;
+  color: rgb(201, 67, 67);
+}
+
+.enter-txt:hover{
+    transform: scale(1.05);
+}
+
+
+/* MEDIA QUERIES */

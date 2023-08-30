@@ -1,0 +1,22 @@
+.thanks-page-container{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart-container{
+    max-width: 20%;
+    margin-top: 3rem;
+}
+
+.heart-image{
+    width: 100%;
+}
+
+@media (max-width:990px){
+    .heart-container{
+        max-width: 40%;
+    }
+}

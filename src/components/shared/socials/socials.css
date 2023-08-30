@@ -1,0 +1,34 @@
+.landing-socials-container{
+    display: flex;
+    width:100%;
+    min-height:4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    justify-self: flex-end;
+    
+}
+
+.landing-icon-container{
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.social-icon{
+    max-width: 2.5rem;
+}
+
+
+.insta-landing:hover{
+    content: url("../../../Images/website_images/socials/instagram_colour.png");
+}
+
+.linkedin-landing:hover{
+    content: url("../../../Images/website_images/socials/linkedIn_colour.png");
+}
+
+.tiktok-landing:hover{
+    content: url("../../../Images/website_images/socials/tiktok_colour.png");
+}
