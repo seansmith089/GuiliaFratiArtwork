@@ -10,8 +10,7 @@ const useViewport = () => {
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
-
   return { width, breakpoint };
 };
 
-export default useViewport
+export default useViewport;

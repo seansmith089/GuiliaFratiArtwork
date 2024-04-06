@@ -6,6 +6,9 @@ import comm from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images
 import book from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/childrens_book/Capitolo-12-min.jpg";
 
 
+
+
+
 export const projectPreviewImages = [
   {
     key: 0,

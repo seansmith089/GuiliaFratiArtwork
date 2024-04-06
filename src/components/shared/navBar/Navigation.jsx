@@ -6,7 +6,7 @@ function Navigation() {
     return (
       <nav className="navigation">
         <div className="name-nav">
-          <Link to="guiliafrati">
+          <Link to="giuliafrati">
             <h1 className="navbar-name">- GIULIA FRATI - </h1>
           </Link>
         </div>

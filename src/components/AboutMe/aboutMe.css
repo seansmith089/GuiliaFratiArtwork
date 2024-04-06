@@ -30,7 +30,7 @@
     justify-content: space-around;
     min-width:60%;
     max-width: 70%;
-    border: solid rgb(32, 32, 32) 1px;
+    border: solid var(--dark) 1px;
     margin-left: 3%;
     border-radius: 5px;
     padding-top: 1rem;
@@ -43,23 +43,18 @@
 }
 
 
-/* IMAGE POSITIONING */
-.drink-tea, .hotdog{
-    object-position: 0 -180px;
-}
 
-.childrens-book{
-    object-position: 0 -60px;
-}
 
 
 @media (max-width:990px){
     .about-me-container{
         flex-direction: column;
         align-items: center;
+        margin-top: 0;
+        padding-bottom: 0;
     }
     .about-photo-container{
-        max-width: 30%;
+        max-width: 50%;
         min-height: 0;
         max-height: 10%;
         margin-bottom: 1rem;

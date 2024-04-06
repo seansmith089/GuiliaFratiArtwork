@@ -50,6 +50,14 @@ function AboutMe() {
             In January 2023 my first book as an illustrator 'Wünschen kann man
             sich alles' is published.
           </p>
+          <br />
+          <p className="about-me-text">
+            From November 2022 I took part in the project ''Hip Hop History'' a
+            podcast on Spotify that tells the history of rap and Hip Hop year by
+            year. I help administer the podcast's instagram page, adding
+            content. Through my drawings people can see the faces of the people
+            who have written the history of rap and Hip Hop.
+          </p>
         </div>
       </div>
     );

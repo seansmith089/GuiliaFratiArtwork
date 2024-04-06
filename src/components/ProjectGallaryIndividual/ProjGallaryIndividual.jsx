@@ -64,7 +64,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
         {project == "animals" &&
@@ -73,7 +75,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
         {project == "comms" &&
@@ -82,7 +86,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
         {project == "food" &&
@@ -91,7 +97,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
         {project == "patterns" &&
@@ -100,7 +108,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
         {project == "book" &&
@@ -109,7 +119,9 @@ function ProjectGallaryIndividual({ project }) {
               key={image.key}
               className="gal-img"
               src={image.path}
-              onClick={() => handleClick(image.path)}
+              onClick={
+                width > breakpoint ? () => handleClick(image.path) : undefined
+              }
             ></img>
           ))}
       </div>

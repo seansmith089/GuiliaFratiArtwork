@@ -11,7 +11,7 @@ function NavLinks({open,setOpen}) {
       <ul>
         <li>
           <NavLink
-            to="guiliafrati"
+            to="giuliafrati"
             className="nav-option"
             onClick={width < breakpoint ? () => setOpen(!open) : undefined}
           >

@@ -55,7 +55,7 @@ function Footer() {
               alt=""
             />
           </Link>
-          <Link>
+          <Link to="https://www.tiktok.com/@_giuperterraa" target="_blank">
             <img
               className="social-icon tiktok"
               src={width < breakpoint ? tiktok_mobile : tiktok_colour}

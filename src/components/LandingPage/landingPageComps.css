@@ -10,7 +10,7 @@
 .main-title{
     margin: 1rem 0rem;
     font-size: 3rem;
-    color: rgb(12, 12, 12);
+    color: var(--dark)
 }
 
 
@@ -42,7 +42,7 @@
 
 .enter-txt{
     font-size: 6rem;
-    color: rgb(27, 27, 27);
+    color: var(--dark);
     transition-duration: .2s;
 }
 

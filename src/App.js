@@ -21,7 +21,7 @@ const router = createBrowserRouter(
     <Route>
       <Route path="/"  element={ <LandingPage /> } />
       <Route path='/'  element={ <NavBar /> }> //Nav bar and footer that is used in all other pages
-        <Route path='guiliafrati' element={<HomePage />} />
+        <Route path='giuliafrati' element={<HomePage />} />
         <Route path='projects' element={<ProjectsPage />} />
         <Route path='/projects/:project' element={<ProjectGallaryPage />} />
         <Route path='/about' element={<AboutMePage />} />

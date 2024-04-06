@@ -5,7 +5,7 @@ function EnterButton(){
     return (
       <div className="enter-btn-container">
         <div className="enter-btn">
-          <NavLink to={"guiliafrati"}>
+          <NavLink to={"giuliafrati"}>
             <h1 className="enter-txt">-ENTER-</h1>
           </NavLink>
         </div>
