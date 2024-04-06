@@ -8,6 +8,12 @@ import orangeStripe from "C:/Users/Sean/Documents/VSCode Files/giulia_website/sr
 import spaceMan from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/Stelle-min.jpg";
 import mouth from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/Opera-senza-titolo 3_trimmed-min.jpg";
 import drinkTea from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/Opera-senza-titolo 2-min.jpg";
+import astro from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/astro.jpeg";
+import baby from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/baby.jpeg";
+import mia from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/Mia_Wallace_-min.png";
+import nada from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/Nada_Malanima-min.png"
+import unnamed from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/unnamed-min.png"
+import women from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/people/women.jpeg"
 
 // ANIMALS IMAGE IMPORTS
 import frog from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/animals/Rana-min.jpg";
@@ -22,6 +28,7 @@ import killerWhale from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src
 import cats from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/animals/Regalo-Borghi-min.jpg";
 import squirell from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/animals/San-Valentino-min.jpg";
 import walrus from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/animals/Tricheco--min.jpg";
+import jellyfish from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/animals/jellyfish-min.png";
 
 // COMMISSION IMAGE IMPORTS
 import comm_1 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Giulia--e-Elisabetta--min.jpg";
@@ -33,6 +40,9 @@ import comm_6 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Imag
 import comm_7 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Roberto-E-Silvia-min.jpg";
 import comm_8 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Sofia--min.jpg";
 import comm_9 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/chalkBag-min.jpg";
+import comm_10 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Enrico's_Dream-min.png";
+import comm_11 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Daris_e_Syria 1-min.png";
+import comm_12 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/commissions/Daris_e_Syria-min.png";
 
 // FOOD IMAGE IMPORTS
 import watermelon from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/food_and_beverages/Anguriaaaaaa-min.jpg";
@@ -44,6 +54,7 @@ import cupCake from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Ima
 import hotdog from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/food_and_beverages/Opera-senza-titolo-min.jpg";
 import chips from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/food_and_beverages/Patatineeeeee-min.jpg";
 import pizza from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/food_and_beverages/Pizzaaaa-min.jpg";
+import tea from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/food_and_beverages/tea-min.png";
 
 // PATTERN IMAGE IMPORTS
 import pattern_1 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Opera-senza-titolo 1-min.jpg";
@@ -51,6 +62,8 @@ import pattern_2 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/I
 import pattern_3 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Pattern 1-min.jpg";
 import pattern_4 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Prova-Pattern-min.jpg";
 import pattern_5 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Prova-Pattern--min.jpg";
+import pattern_6 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Syria 1-min.png";
+import pattern_7 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/patterns/Syria-min.png";
 
 // BOOK IMAGE IMPORTS
 import book_1 from "C:/Users/Sean/Documents/VSCode Files/giulia_website/src/Images/childrens_book/Capitolo-10-min.jpg";
@@ -109,6 +122,30 @@ export const peopleProject = [
     key: 8,
     path: drinkTea,
   },
+  {
+    key: 9,
+    path: astro,
+  },
+  {
+    key: 10,
+    path: baby,
+  },
+  {
+    key: 11,
+    path: mia,
+  },
+  {
+    key: 12,
+    path: nada,
+  },
+  {
+    key: 13,
+    path: unnamed,
+  },
+  {
+    key: 14,
+    path: women,
+  },
 ];
 
 export const animalsProject = [
@@ -160,6 +197,10 @@ export const animalsProject = [
     key: 11,
     path: killerWhale,
   },
+  {
+    key: 12,
+    path: jellyfish,
+  },
 ];
 
 export const commissionProject = [
@@ -198,6 +239,18 @@ export const commissionProject = [
   {
     key: 8,
     path: comm_9,
+  },
+  {
+    key: 9,
+    path: comm_10,
+  },
+  {
+    key: 10,
+    path: comm_11,
+  },
+  {
+    key: 11,
+    path: comm_12,
   },
 ];
 
@@ -238,6 +291,10 @@ export const foodProject = [
     key: 8,
     path: pizza,
   },
+  {
+    key: 9,
+    path: tea,
+  },
 ];
 
 export const patternProject = [
@@ -260,6 +317,14 @@ export const patternProject = [
   {
     key: 4,
     path: pattern_5,
+  },
+  {
+    key: 5,
+    path: pattern_6,
+  },
+  {
+    key: 6,
+    path: pattern_7,
   },
 ];
 
